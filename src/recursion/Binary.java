@@ -27,13 +27,8 @@ public class Binary {
 
 	public static void main(String[] args) throws IOException {
 		init();
-		//recursion(N);
-		
-		while(N >= 1) {
-			sb.append(N % 2);
-			N /= 2;
-		}
-		
+		recursion(N);
+
 		System.out.println(sb.reverse());
 	}
 
