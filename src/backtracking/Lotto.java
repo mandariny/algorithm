@@ -1,3 +1,4 @@
+//¹®Á¦ : https://www.acmicpc.net/status?user_id=thrkflsk&problem_id=6603&from_mine=1
 package backtracking;
 
 import java.io.BufferedReader;
