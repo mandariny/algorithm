@@ -8,6 +8,7 @@ import java.io.IOException;
 public class NM2 {
 	static int N, M;
 	static int[] arr;
+	//check 필요 없음,,, 어차피 다음 수부터 for문을 반복하니까,,,
 	static boolean[] check;
 	static StringBuilder sb = new StringBuilder();
 	

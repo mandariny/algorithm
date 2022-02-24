@@ -8,6 +8,7 @@ import java.util.ArrayList;
 
 public class Lotto {
 	public static ArrayList<int[]> arr = new ArrayList<>();
+	//check 필요 없음,,, 어차피 다음 수부터 for문을 반복하니까,,,
 	public static ArrayList<boolean[]> check = new ArrayList<>();
 	public static int[] answer = new int[6];
 	public static StringBuilder sb = new StringBuilder();
