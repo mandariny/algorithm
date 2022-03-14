@@ -1,3 +1,4 @@
+-- 문제 : https://programmers.co.kr/learn/courses/30/lessons/59044
 SELECT name, datetime
 from animal_ins
 where animal_id not in (select animal_id
