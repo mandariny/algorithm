@@ -1,3 +1,4 @@
+-- 문제 : https://programmers.co.kr/learn/courses/30/lessons/59043
 select o.animal_id, o.name
 from animal_outs as o, animal_ins as i
 where o.datetime < i.datetime and o.animal_id = i.animal_id
