@@ -17,10 +17,11 @@ public class Solution_1236_성_지키기 {
         n = Integer.parseInt(inputs[0]);
         m = Integer.parseInt(inputs[1]);
         for(int i=0; i<n; i++){
-            String str = br.readLine();
-            for(int j=0; j<m; j++){
-                map[i][j] = str.charAt(j);
-            }
+            map[i] = br.readLine().toCharArray();
+//            String str = br.readLine();
+//            for(int j=0; j<m; j++){
+//                map[i][j] = str.charAt(j);
+//            }
         }
     }
 
