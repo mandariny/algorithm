@@ -18,7 +18,7 @@ public class Solution_1181_단어정렬 {
         for (int i = 0; i < N; i++) setArr.add(br.readLine());
 
         String[] arr = new String[setArr.size()];
-        arr = setArr.toArray(arr);
+        arr = setArr.toArray(String[]::new);
 
         Arrays.sort(arr, (s1, s2) -> {
             if(s1.length() == s2.length()){
